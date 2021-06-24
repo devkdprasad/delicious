@@ -1,0 +1,65 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<div class="head" (clickOutside)="onClickedOutside($event)">
+    <img src="https://d2407na1z3fc0t.cloudfront.net/Banner/web_licious_logo.png" alt="licious">
+    <div class="location">
+
+        <form>
+            <label for="location">location:</label>
+            <select id="location" name="cars">
+                <option value="kakindada">kakindada</option>
+                <option value="vizag">vizag</option>
+                <option value="hyderabad">hyderabad</option>
+                <option value="banglore">banlore</option>
+            </select>
+
+        </form>
+
+    </div>
+
+    <div id="searchSpan"><input type="text" placeholder="search for any delicious product">
+        <i class="fa fa-search" id="fa"></i>
+    </div>
+
+    <div class="lc">
+
+
+        
+        <div ><i class="fa fa-user-circle" id="login"></i>
+            <button class="btn btn-primary" type="button" class="btn btn-demo" (click)="sidebarShow = !sidebarShow" ><h4 class="modal-title" id="myModalLabel2">login</h4></button>
+        </div>
+        <div class="login-bar">
+        
+        </div>
+
+
+        <div><i class="fa fa-shopping-cart" aria-hidden="true"></i><button>cart</button></div>
+    </div>
+    
+</div>
+
+<div class="menu">
+    <a routerLink='flashSale' routerLinkActive="active">Flash Sale</a>
+    <a routerLink='chicken' routerLinkActive="active">Chicken</a>
+    <a routerLink='mutton' routerLinkActive="active">Mutton</a>
+    <a routerLink='egg' routerLinkActive="active">Eaggs</a>
+
+</div>
+
+
+<div class="sidebar-slider" [class.sidebar-slide-in]="sidebarShow">
+    <div
+        class="sidebar-close"
+        (click)="sidebarShow = !sidebarShow"
+    >
+        X
+    </div>
+	  <div class="sidebar-content">
+        <h2>Sidebar</h2>
+        <div>Home Page</div>
+        <div>About Us</div>
+        <div>Services</div>
+        <div>Prices</div>
+        <div>Downloads</div>
+        <div>Contact Us</div>
+	  </div>
+</div>

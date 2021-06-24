@@ -1,0 +1,269 @@
+.head{
+    display: flex;
+    width: 100%;
+    height: 55px;
+    background-color:#cfc4c4;
+    margin:10px;
+    padding:10px;
+    font-size:20px;
+}
+
+
+h1{
+    margin-top: 10px;
+    margin-left: 50px;
+    font-style: oblique;
+   
+
+}
+div{
+    // margin:20px;
+    padding:20px;
+}
+
+input {
+    width: 350px;
+    height: 35px;
+    margin-top: -15px;
+    border-radius: 5px;
+    
+  }
+   button{
+      margin-right:100px ;
+  }
+  
+  #searchSpan{
+    display: flex;
+
+    
+  }
+  #fa{
+    
+      position: absolute;
+      margin-left: 300px;
+      margin-top: -5px;
+  }
+
+  .menu{
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    justify-content: space-evenly;
+    background-color: #827474;
+    
+  }
+  a{
+    text-decoration: none;
+    color:white;
+  }
+  .content{
+    
+     height: 800px;
+  }
+  .lc{
+    margin-top: -35px;
+    display:flex;
+  }
+  .location{
+  margin-top: -10px;
+  }
+//   .login-bar{
+//     width:30%;
+//     height: 100%;
+//     float: right;
+//     border:1px solid gray;
+//     box-shadow:2px 2px 5px 5px red;
+// }
+// img{
+//     width:100%;
+// }
+/*******************************
+* MODAL AS LEFT/RIGHT SIDEBAR
+* Add "left" or "right" in modal parent div, after class="modal".
+* Get free snippets on bootpen.com
+// *******************************/
+// .modal.left .modal-dialog,
+// .modal.right .modal-dialog {
+//   position: fixed;
+//   margin: auto;
+//   width: 320px;
+//   height: 100%;
+//   -webkit-transform: translate3d(0%, 0, 0);
+//       -ms-transform: translate3d(0%, 0, 0);
+//        -o-transform: translate3d(0%, 0, 0);
+//           transform: translate3d(0%, 0, 0);
+// }
+
+// .modal.left .modal-content,
+// .modal.right .modal-content {
+//   height: 100%;
+//   overflow-y: auto;
+// }
+
+// .modal.left .modal-body,
+// .modal.right .modal-body {
+//   padding: 15px 15px 80px;
+// }
+
+// /*Left*/
+// .modal.left.fade .modal-dialog{
+//   left: -320px;
+//   -webkit-transition: opacity 0.3s linear, left 0.3s ease-out;
+//      -moz-transition: opacity 0.3s linear, left 0.3s ease-out;
+//        -o-transition: opacity 0.3s linear, left 0.3s ease-out;
+//           transition: opacity 0.3s linear, left 0.3s ease-out;
+// }
+
+// .modal.left.fade.in .modal-dialog{
+//   left: 0;
+// }
+      
+// /*Right*/
+// .modal.right.fade .modal-dialog {
+//   right: -320px;
+//   -webkit-transition: opacity 0.3s linear, right 0.3s ease-out;
+//      -moz-transition: opacity 0.3s linear, right 0.3s ease-out;
+//        -o-transition: opacity 0.3s linear, right 0.3s ease-out;
+//           transition: opacity 0.3s linear, right 0.3s ease-out;
+// }
+
+// .modal.right.fade.in .modal-dialog {
+//   right: 0;
+// }
+
+// /* ----- MODAL STYLE ----- */
+// .modal-content {
+//   border-radius: 0;
+//   border: none;
+// }
+
+// .modal-header {
+//   border-bottom-color: #EEEEEE;
+//   background-color: #FAFAFA;
+// }
+
+// /* ----- v CAN BE DELETED v ----- */
+// body {
+// background-color: #78909C;
+// }
+
+// .demo {
+// padding-top: 60px;
+// padding-bottom: 110px;
+// }
+
+// .btn-demo {
+// margin: 15px;
+// padding: 10px 15px;
+// border-radius: 0;
+// font-size: 16px;
+// background-color: #FFFFFF;
+// }
+
+// .btn-demo:focus {
+// outline: 0;
+// }
+
+
+/*******************************
+* MODAL AS LEFT/RIGHT SIDEBAR
+* Add "left" or "right" in modal parent div, after class="modal".
+* Get free snippets on bootpen.com
+*******************************/
+.modal.left .modal-dialog,
+.modal.right .modal-dialog {
+  position: fixed;
+  margin: auto;
+  width: 320px;
+  height: 100%;
+  -webkit-transform: translate3d(0%, 0, 0);
+      -ms-transform: translate3d(0%, 0, 0);
+       -o-transform: translate3d(0%, 0, 0);
+          transform: translate3d(0%, 0, 0);
+}
+
+.modal.left .modal-content,
+.modal.right .modal-content {
+  height: 100%;
+  overflow-y: auto;
+}
+
+.modal.left .modal-body,
+.modal.right .modal-body {
+  padding: 15px 15px 80px;
+}
+
+/*Left*/
+.modal.left.fade .modal-dialog{
+  left: -320px;
+  -webkit-transition: opacity 0.3s linear, left 0.3s ease-out;
+     -moz-transition: opacity 0.3s linear, left 0.3s ease-out;
+       -o-transition: opacity 0.3s linear, left 0.3s ease-out;
+          transition: opacity 0.3s linear, left 0.3s ease-out;
+}
+
+.modal.left.fade.in .modal-dialog{
+  left: 0;
+}
+      
+/*Right*/
+.modal.right.fade .modal-dialog {
+  right: -320px;
+  -webkit-transition: opacity 0.3s linear, right 0.3s ease-out;
+     -moz-transition: opacity 0.3s linear, right 0.3s ease-out;
+       -o-transition: opacity 0.3s linear, right 0.3s ease-out;
+          transition: opacity 0.3s linear, right 0.3s ease-out;
+}
+
+.modal.right.fade.in .modal-dialog {
+  right: 0;
+}
+
+/* ----- MODAL STYLE ----- */
+.modal-content {
+  border-radius: 0;
+  border: none;
+}
+
+.modal-header {
+  border-bottom-color: #EEEEEE;
+  background-color: #FAFAFA;
+}
+
+/* ----- v CAN BE DELETED v ----- */
+body {
+background-color: #78909C;
+}
+
+.demo {
+padding-top: 60px;
+padding-bottom: 110px;
+}
+
+.btn-demo {
+margin: 15px;
+padding: 10px 15px;
+border-radius: 0;
+font-size: 16px;
+background-color: #FFFFFF;
+}
+
+.btn-demo:focus {
+outline: 0;
+}
+
+.demo-footer {
+position: fixed;
+bottom: 0;
+width: 100%;
+padding: 15px;
+background-color: #212121;
+text-align: center;
+}
+
+.demo-footer > a {
+text-decoration: none;
+font-weight: bold;
+font-size: 16px;
+color: #fff;
+}

@@ -1,0 +1,20 @@
+.cards{
+    display: flex;
+ 
+    
+}
+.row{
+    height: 300px;
+    min-height: 500px;
+}
+.card-img, .card-img-top {
+    border-top-left-radius: calc(0.25rem - 1px);
+    border-top-right-radius: calc(0.25rem - 1px);
+    height: 200px;
+}
+.card-body {
+    flex: 1 1 auto;
+    min-height: 100px;
+    padding: 1.25rem;
+    height: 200px;
+}
